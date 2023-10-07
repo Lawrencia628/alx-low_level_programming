@@ -2,23 +2,17 @@
 
 
 /**
- * main - program that printsall single digit numbers of base ten
+ * main - program that prints all single digit numbers of base ten
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	int number;
+	int i;
 
-	for (number = '0'; number <= '9'; number++)
-
-	{
-	if (number != '4' && number != '8')
-	putchar(number);
-	}
-
+	for (i = '0'; i <= '9'; i++)
+		putchar("0" + i);
 	putchar('\n');
-
 	return (0);
 }
