@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * swap_int - this is the name of the function
- * @a- let this be the first parameter
- * @b- let this be the second parameter
+ * @a: the first parameter
+ * @b: the second parameter
  */
 
 void swap_int(int *a, int *b)
